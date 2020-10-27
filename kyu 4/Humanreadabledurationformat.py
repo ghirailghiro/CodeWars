@@ -27,6 +27,7 @@ A unit of time must be used "as much as possible". It means that the function sh
 
 def format_duration(seconds):
     #your code here
+    auxList = []
     stringOfTime = ""
     if seconds == 0:
         return "now"
@@ -54,7 +55,6 @@ def format_duration(seconds):
             print("quarto while")
             minutes += 1
         print(seconds)
-        auxList = []
         if years !=0:
             if years != 1:
                 auxList.append(str(years)+" years")
